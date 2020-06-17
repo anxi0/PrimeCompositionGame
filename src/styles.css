@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color:#80C8FF;
+}
+input[type=text]{
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-size: larger;
+}
+progress{
+    width: 500px;
+    height: 100px;
+    color: #A6D9FF;
+}
+button{
+    width: 100px;
+}
+.resetBtn{
+    display: none;
+}
+.title{
+    color: #E4F3FF;
+}
+.question{
+    color: #B9E1FF;
+}

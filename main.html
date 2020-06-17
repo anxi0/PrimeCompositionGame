@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles.css">
+    <title>PrimeGame</title>
+</head>
+<body>
+    <div class='mainBox'>
+        <h1 class='title'>함 맞춰보시지</h1>
+        <h1 class='question'>수</h1>
+        <div class="progressBar"> <div style="font-size: 50px;">2</div><progress value="2" max='2'></progress></div>
+        <form class="inputNumber">
+            <label><input type="radio" name="selection" value='소수'>소수</label>
+            <label><input type="radio" name='selection' value='합성수'>합성수</label>  
+        </form>
+        <h1 class='result'>결과</h1>
+        <button type="submit" >시작</button>
+        <button type="button" class='resetBtn'>다시하기</button>
+    </div>
+    <script src="src/mathEquation.js"></script>
+    <script src="src/index.js"></script>
+</body>
+</html>
